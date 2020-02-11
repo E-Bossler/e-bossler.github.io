@@ -1,0 +1,117 @@
+/* ** Header styles *** */
+
+
+
+nav {
+    margin: 0 0 15px 0;
+    background-image: linear-gradient(to bottom, lightskyblue, white);
+}
+
+/* Body Styles */
+
+.major-section {
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+    border-top-width: 5px;
+    border-top-color: black;
+    border-top-style: solid;
+}
+
+#top {
+    border-top-color: white;
+}
+
+.left-side {
+    text-align: right;
+    border-top-width: 5px;
+    border-top-color: white;
+    border-top-style: solid;
+}
+
+.minor-section {
+    border-left-width: 5px;
+    border-left-color: black;
+    border-left-style: solid;
+}
+
+.btn {
+    color: black;
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+.card-body, .form-row, .form-group, .btn-primary {
+    margin: 0 0 15px 0;
+} 
+
+#LIcard {
+    max-width: 100%;;
+}
+
+img {
+    max-width: 100%;
+    padding: 0 0 15px 0 ;
+}
+
+#rushmore {
+    transform: rotate(180deg);
+  }
+
+.screenshots {
+    float: left;
+    padding: 0 0 15px 0 ;
+    width: 100%;
+}
+
+#uw-btn {
+    background-color: #33006f;
+    color: #ECDCA8;
+}
+
+#wsu-btn {
+    background-color: black;
+    color: #ffd200;
+}
+
+#bc-btn {
+    background-image: linear-gradient(to bottom right, black, #b42643);
+    color: white;
+}
+
+#li-btn {
+    background-image: linear-gradient(to bottom right, #0077B5, #333333);
+    color: white;
+}
+
+/* Corner Art Styles */
+
+.cornerArt {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px  2px 0;
+    z-index: -1;
+}
+
+#divOne  {
+    background-image: linear-gradient(to bottom right,  white, rgb(0, 174, 255));
+    float: left;
+}
+
+#divTwo {
+    background-image: linear-gradient(to top right, rgb(0, 174, 255), white);
+    float: left;
+}
+
+#divFour {
+    background-image: linear-gradient(to bottom left,  rgb(0, 174, 255), white);
+    position: absolute;
+    margin: 12px 0 0 0 ;
+}
+
+#divFive {
+    background-image: linear-gradient(to bottom right,  rgb(0, 174, 255), white);
+    position: absolute;
+    margin: 12px 0 0 12px ;
+}
