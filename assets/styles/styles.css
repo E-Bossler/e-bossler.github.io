@@ -1,0 +1,16 @@
+/* NAVIGATION STYLES */
+
+.nav {
+    background-color: black;
+    color: white;
+}
+
+.nav-link {
+    color: white
+}
+
+/* BODY STYLES */
+
+#eric-intro-photo {
+    width: 100%;
+}
