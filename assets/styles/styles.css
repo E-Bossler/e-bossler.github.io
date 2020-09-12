@@ -13,4 +13,79 @@
 
 #eric-intro-photo {
     width: 100%;
+    float: right;
 }
+
+/* PROFILE STYLES */
+
+#profile {
+    padding: 15px;
+}
+
+#profile-photo {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+/* EXPERIENCE STYLES */
+
+#professional-experience {
+    background-color: #b6b6b67e;
+    padding: 15px;
+}
+
+#spirit-logo {
+    max-width: 200px;
+}
+
+/* STORY STYLES */
+
+#story {
+    padding: 15px;
+}
+
+.story-photos {
+    max-width: 200px;
+    border-radius: 30px;
+}
+
+/* TRAVEL STYLES */
+
+#travels {
+    height: 300px;
+}
+
+/* EDUCATION STYLES */
+
+#education {
+    padding: 15px;
+    background-color: #b6b6b67e;
+}
+
+.seals {
+    max-width: 200px;
+}
+
+/* SKILLS STYLES */
+
+/* CONTACT STYLES */
+
+#contact {
+    color: white;
+    background-color: black;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
