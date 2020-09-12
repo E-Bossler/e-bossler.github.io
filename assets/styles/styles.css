@@ -9,6 +9,16 @@
     color: white
 }
 
+/* INTRO STYLES */
+
+#intro {
+    color: white
+}
+
+#intro-language {
+    position: absolute;
+}
+
 /* BODY STYLES */
 
 #eric-intro-photo {
@@ -16,15 +26,48 @@
     float: right;
 }
 
+.titles {
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+h1, h2, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h4, h6 {
+    color: rgb(92, 194, 160);
+}
+
+h5 {
+    color: rgb(79, 162, 218);
+}
+
+
+
 /* PROFILE STYLES */
 
 #profile {
     padding: 15px;
+    background-color: #b6b6b67e;
 }
 
 #profile-photo {
     border-radius: 50%;
-    max-width: 200px;
+    max-width: 300px;
+    float: right;
+}
+
+/* PORTFOLIO STYLES */
+
+#portfolio {
+    padding: 15px;
+
+}
+
+.portfolio-photos {
+    float: right;
+
 }
 
 /* EXPERIENCE STYLES */
@@ -35,7 +78,8 @@
 }
 
 #spirit-logo {
-    max-width: 200px;
+    max-width: 300px;
+    float: right;
 }
 
 /* STORY STYLES */
@@ -45,8 +89,9 @@
 }
 
 .story-photos {
-    max-width: 200px;
+    max-width: 300px;
     border-radius: 30px;
+    float: right;
 }
 
 /* TRAVEL STYLES */
@@ -64,15 +109,41 @@
 
 .seals {
     max-width: 200px;
+    float: right;
+    margin: 0 50px 0 0;
+}
+
+.row {
+    padding: 0 0 15px 0;
 }
 
 /* SKILLS STYLES */
+
+#skills {
+    padding: 15px;
+}
 
 /* CONTACT STYLES */
 
 #contact {
     color: white;
     background-color: black;
+    padding: 15px;
+}
+
+#pizza {
+    text-align: center;
+    font-style: italic;
+    padding: 15px
+}
+
+.contact-images {
+    max-width: 50px;
+}
+ 
+#copyright {
+    text-align: center;
+    padding: 20px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */

@@ -11,38 +11,33 @@
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/styles/styles.css">
 
-  <title>Hello, world!</title>
+  <title>Hi, I'm Eric</title>
 </head>
 
 <body>
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="#">Profile</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">My Story</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Get in Touch</a>
-    </li>
-  </ul>
+
   <div id="intro">
     <!-- ERIC YOU NEED TO DO THIS WITH THE GRID SYSTEM -->
     <img src='./assets/photos/wedding-day-photo.jpg' id='eric-intro-photo' />
-    <h3>
-      Full Stack Developer.
-    </h3>
-    <h3>
-      HUSBAND. FATHER.
-    </h3>
-    <H1>
-      Hello, I am
-    </H1>
-    <h1>
-      ERIC S BOSSLER
-    </h1>
+    <div id="intro-language">
+      <h3>
+        Full Stack Developer.
+      </h3>
+      <h3>
+        HUSBAND. FATHER.
+      </h3>
+      <H1>
+        Hello, I am
+      </H1>
+      <h1>
+        ERIC S BOSSLER
+      </h1>
+    </div>
   </div>
   <div id='profile'>
+    <h2 class='titles'>
+      - Profile -
+    </h2>
     <div class='container'>
       <div class='row'>
         <div class="col-sm-5">
@@ -61,13 +56,96 @@
     </div>
 
   </div>
+  <div id='portfolio'>
+    <h2 class='titles'>
+      - Portfolio -
+    </h2>
+    <div class='container'>
+      <div class='row'>
+        <div class="col-sm-5">
+          <img src="./assets/photos/tee-time.png" class="portfolio-photos" />
+        </div>
+        <div class="col-sm-7">
+          <h4>
+            Tee Time
+          </h4>
+          <h5>
+            Final Team Project
+          </h5>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+        </div>
+      </div>
+      <div class='row'>
+        <div class="col-sm-5">
+          <img src="./assets/photos/scrabble-tile.png" class="portfolio-photos" />
+        </div>
+        <div class="col-sm-7">
+          <h4>
+            Scrabble Dabble
+          </h4>
+          <h5>
+            First Team Project
+          </h5>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
   <div id='professional-experience'>
+    <h2 class='titles'>
+      - Experience -
+    </h2>
     <div class='container'>
       <div class='row'>
         <div class="col-sm-5">
           <img src="./assets/photos/spirit-logo.png" id="spirit-logo" />
         </div>
         <div class="col-sm-7">
+          <h4>
+            Contracts Specialist
+          </h4>
+          <h5>
+            Seattle, WA 2018-Present
+          </h5>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+          <h4>
+            Contracts Administrator
+          </h4>
+          <h5>
+            Wichita, KS 2015-2018
+          </h5>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+          <h4>
+            Estimating and Pricing Specialist
+          </h4>
+          <h5>
+            Wichita, KS 2012-2015
+          </h5>
           <p>
             Full stack developer specializing in MERN stack application development with a proven ability to solve
             complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
@@ -80,14 +158,19 @@
     </div>
   </div>
   <div id='story'>
-    THIS IS THE MY STORY SECTION
-    <div class="container-fluid">
+    <h2 class='titles'>
+      - My Story -
+    </h2>
+    <div class="container">
       <!-- <div class="row"> -->
       <div class="row" id="pacific-sorth-west">
         <div class="col-sm-5">
           <img src="assets/photos/rainier.jpeg" class="story-photos" />
         </div>
         <div class="col-sm-7">
+          <h4>
+            Chapter IV: The Pacific North West
+          </h4>
           <p>
             Full stack developer specializing in MERN stack application development with a proven ability to solve
             complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
@@ -107,9 +190,12 @@
       </div>
       <div class="row" id="great-plains">
         <div class="col-sm-5">
-          <img src="assets/photos/sunflower.jpeg" class="story-photos" />
+          <img src="assets/photos/tallgrass-prairie.jpeg" class="story-photos" />
         </div>
         <div class="col-sm-7">
+          <h4>
+            Chapter III: The Great Plains
+          </h4>
           <p>
             Full stack developer specializing in MERN stack application development with a proven ability to solve
             complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
@@ -126,11 +212,38 @@
           </p>
         </div>
       </div>
-      <div class="row" id="benedictine">
+      <div class="row" id="sunflower">
         <div class="col-sm-5">
-          <img src="assets/photos/tallgrass-prairie.jpeg" class="story-photos" />
+          <img src="assets/photos/sunflower.jpeg" class="story-photos" />
         </div>
         <div class="col-sm-7">
+          <h4>
+            Chapter II: The Sunflower State
+          </h4>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+          <p>
+            Full stack developer specializing in MERN stack application development with a proven ability to solve
+            complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
+            freshly honed technical skills to work solving advanced issues. Nearly a decade of experience with
+            customer-focused negotiations, detailed calculations, forecasting, and economic analyses. Motivated to
+            leverage extensive business acumen to build world class applications for a thriving organization.
+          </p>
+        </div>
+      </div>
+      <div class="row" id="sunflower">
+        <div class="col-sm-5">
+          <img src="assets/photos/st-louis.jpeg" class="story-photos" />
+        </div>
+        <div class="col-sm-7">
+          <h4>
+            Chapter I: Midwest Born and Raised
+          </h4>
           <p>
             Full stack developer specializing in MERN stack application development with a proven ability to solve
             complex business problems. Recent graduate of a 24-week intensive programming bootcamp. Excited to put
@@ -150,71 +263,85 @@
     </div>
   </div>
   <div id='education'>
-    <div class="container-fluid">
+    <h2 class='titles'>
+      - Education -
+    </h2>
+    <div class="container">
       <!-- <div class="row"> -->
-      <div class="row" id="washington">
+      <div class="row degrees" id="washington">
         <div class="col-sm-5">
           <img src="assets/photos/washington-state.png" class="seals" />
         </div>
         <div class="col-sm-7">
-          <h3>
+          <h6>
             Full Stack Web Development
-          </h3>
-          <h3>
+          </h6>
+          <h6>
             Certificate
-          </h3>
-          <h4>
+          </h6>
+          <p>
             University of Washington
-          </h4>
-          <h4>
+            <br>
             Seattle, WA - May 2020
-          </h4>
+          </p>
         </div>
 
       </div>
-      <div class="row" id="wichita">
+      <hr>
+      <div class="row degrees" id="wichita">
         <div class="col-sm-5">
           <img src="assets/photos/wichita-seal.png" class="seals" />
         </div>
         <div class="col-sm-7">
-          <h3>
+          <h6>
             International Economics
-          </h3>
-          <h3>
+          </h6>
+          <h6>
             Master of Arts
-          </h3>
-          <h4>
+          </h6>
+          <p>
             Wichita State University
-          </h4>
-          <h4>
+            <br>
             Wichita, KS - December 2015
-          </h4>
+            <br>
+            Selected Works:
+            <br>
+            <a href="./assets/pdfs/bossler-kansas-beer.pdf">
+              Forecasting KS Craft Beer
+            </a>
+            <br>
+            <a href="./assets/pdfs/bossler-german-beer.pdf">
+              Influence of US Craft Beer on German Beer
+            </a>
+          </p>
         </div>
       </div>
-      <div class="row" id="benedictine">
+      <hr>
+      <div class="row degrees" id="benedictine">
         <div class="col-sm-5">
           <img src="assets/photos/benedictine-seal.png" class="seals" />
         </div>
         <div class="col-sm-7">
-          <h3>
+          <h6>
             Economics (minor: history)
-          </h3>
-          <h3>
+          </h6>
+          <h6>
             Bachelor of Arts
-          </h3>
-          <h4>
+          </h6>
+          <p>
             Benedictine College
-          </h4>
-          <h4>
+            <br>
             Atchison, KS - May 2012
-          </h4>
+          </p>
         </div>
       </div>
     </div>
   </div>
   <!-- </div> -->
   <div id='skills'>
-    This is the Skills Section
+    <h2 class='titles'>
+      - Skills -
+    </h2>
   </div>
   <!-- <div id ='travels'>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -246,10 +373,57 @@
           
     </div> -->
   <div id='contact'>
-    This is the contact Section
+    <h2 class='titles'>
+      - Connect with Me -
+    </h2>
+    <div class='container'>
+      <div class="row">
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-6">
+          <h3 id="pizza">
+            The best way to get my full, undivided attention is to have a deep dish pizza delivered to my door... but an email will do the
+            job.
+          </h3>
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+      <div class='row'>
+        <div class="col-sm-4">
+        </div>
+        <div class="col-1" id='email'>
+          <a href="mailto:eric.bossler@gmail.com?subject=Hi%20Eric%2C%20sorry%20I%20didn%27t%20get%20you%20a%20pizza"">
+            <img src=" assets/photos/email-logo.png" class="contact-images" />
+          </a>
+        </div>
+        <div class="col-1" id='linkedin'>
+          <a href="https://www.linkedin.com/in/e-bossler/">
+            <img src="assets/photos/linkedin-logo.png" class="contact-images" />
+          </a>
+        </div>
+        <div class="col-1" id='resume'>
+          <a href="assets/pdfs/eric-bossler-dev-resume-20200901.pdf">
+            <img src="assets/photos/resume.jpg" class="contact-images" />
+          </a>
+        </div>
+        <div class="col-1" id='github'>
+          <a href="http://github.com/e-bossler">
+            <img src="assets/photos/github-logo-white.jpg" class="contact-images" />
+          </a>
+        </div>
+        <div class="col-sm-4">
+        </div>
+      </div>
+      <div class="row">
+        <p class="col" id="copyright">
+          © 2020 Eric Stanley Bossler
+        </p>
+      </div>
+    </div>
   </div>
 
-  <!-- Optional JavaScript -->
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
