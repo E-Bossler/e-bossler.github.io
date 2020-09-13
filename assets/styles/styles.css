@@ -28,12 +28,12 @@
 
 .titles {
     text-align: center;
-    padding: 0 0 20px 0;
+    padding: 30px 0 20px 0;
 }
 
-h1, h2, h4, h5, h6 {
+/* h1, h2, h4, h6 {
     font-weight: bold;
-}
+} */
 
 h4, h6 {
     color: rgb(92, 194, 160);
@@ -43,12 +43,15 @@ h5 {
     color: rgb(79, 162, 218);
 }
 
-
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
 
 /* PROFILE STYLES */
 
 #profile {
-    padding: 15px;
+    padding: 0 0 15px  0;
     background-color: #b6b6b67e;
 }
 
@@ -58,6 +61,9 @@ h5 {
     float: right;
 }
 
+#first-title {
+    padding: 50px 0 50ps 0;
+}
 /* PORTFOLIO STYLES */
 
 #portfolio {
@@ -72,7 +78,7 @@ h5 {
 
 /* EXPERIENCE STYLES */
 
-#professional-experience {
+#professional-experience, #community {
     background-color: #b6b6b67e;
     padding: 15px;
 }
@@ -107,7 +113,7 @@ h5 {
     background-color: #b6b6b67e;
 }
 
-.seals {
+.seals, #ballard-logo {
     max-width: 200px;
     float: right;
     margin: 0 50px 0 0;
