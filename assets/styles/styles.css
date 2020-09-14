@@ -35,8 +35,9 @@ body {
 }
 
 .titles {
+    font-weight: bolder;
     text-align: center;
-    padding: 30px 0 20px 0;
+    padding: 30px 0 50px 0;
 }
 
 img {
@@ -73,7 +74,6 @@ h5 {
 #profile-photo {
     border-radius: 300px;
     max-width: 300px;
-    float: right;
 }
 
 #first-title {
@@ -102,7 +102,6 @@ h5 {
 
 #spirit-logo {
     max-width: 300px;
-    float: right;
 }
 
 /* STORY STYLES */
@@ -114,7 +113,6 @@ h5 {
 .story-photos {
     max-width: 300px;
     border-radius: 30px;
-    float: right;
 }
 
 /* TRAVEL STYLES */
