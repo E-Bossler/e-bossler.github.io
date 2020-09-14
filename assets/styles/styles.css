@@ -19,9 +19,59 @@
     color: white
 }
 
-#intro-language {
-    position: absolute;
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 100px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+    }
+    h1 {
+        font-size: 100%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 200px;
+        right: 150px;
+    }
+    h1 {
+        font-size: 150%;
+    }
 }
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 300px;
+        right: 300px;
+    }
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 1600px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 450px;
+        right: 450px;
+    }
+    h1 {
+        font-size: 300%;
+    }
+}
+
 
 /* BODY STYLES */
 
@@ -37,7 +87,7 @@ body {
 .titles {
     font-weight: bolder;
     text-align: center;
-    padding: 30px 0 50px 0;
+    padding: 30px 0 25px 0;
 }
 
 img {
@@ -51,12 +101,16 @@ img {
     font-weight: bold;
 } */
 
+/* h2 {
+    color: rgb(74, 89, 204);
+} */
+
 h4, h6 {
-    color: rgb(92, 194, 160);
+    color: rgb(115, 183, 185);
 }
 
 h5 {
-    color: rgb(79, 162, 218);
+    color: rgb(81, 130, 173);
 }
 
 .parallax-window {
@@ -136,15 +190,24 @@ h5 {
     margin-right: auto;
 }
 
-.row {
-    padding: 0 0 15px 0;
-}
+
 
 /* SKILLS STYLES */
 
 #skills {
     padding: 15px;
 }
+
+.progress {
+    padding: 0px;
+}
+
+.badges {
+    max-width: 60px;
+    float: right;
+}
+
+
 
 /* CONTACT STYLES */
 
