@@ -1,2 +1,4 @@
 # e-bossler.github.io
-this is my basic site!
+
+Visit my deployed portfolio/resume at https://e-bossler.github.io/
+
