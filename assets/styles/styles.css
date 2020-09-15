@@ -202,12 +202,37 @@ h5 {
     padding: 0px;
 }
 
+.progress-bar {
+    background-color: rgb(81, 130, 173)
+}
+
 .badges {
     max-width: 60px;
     float: right;
 }
 
 
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .skill-row {
+        min-height: 60px;
+    }
+
+    .col-md-2 {
+        text-align: right;
+        text-align: middle;
+    }
+    
+}
+
+/* COMMUNITY STYLES  */
+
+#community {
+    padding: 15px;
+    background-color: white;
+}
 
 /* CONTACT STYLES */
 
