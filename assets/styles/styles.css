@@ -9,8 +9,273 @@
     color: white
 }
 
+/* INTRO STYLES */
+
+.bold {
+    font-weight: bold;
+}
+
+#intro {
+    color: white
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 100px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+    }
+    h1 {
+        font-size: 100%;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 200px;
+        right: 150px;
+    }
+    h1 {
+        font-size: 150%;
+    }
+}
+
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 300px;
+        right: 300px;
+    }
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media (min-width: 1600px) { 
+    #intro-language {
+        position: absolute;
+        position: absolute;
+        top: 450px;
+        right: 450px;
+    }
+    h1 {
+        font-size: 300%;
+    }
+}
+
+
 /* BODY STYLES */
+
+body {
+    font-family: 'Spartan', sans-serif;
+}
 
 #eric-intro-photo {
     width: 100%;
+    float: right;
 }
+
+.titles {
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px 0 25px 0;
+}
+
+img {
+    margin: 0 0 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* h1, h2, h4, h6 {
+    font-weight: bold;
+} */
+
+/* h2 {
+    color: rgb(74, 89, 204);
+} */
+
+h4, h6 {
+    color: rgb(115, 183, 185);
+}
+
+h5 {
+    color: rgb(81, 130, 173);
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
+/* PROFILE STYLES */
+
+#profile {
+    padding: 0 0 15px  0;
+    background-color: #b6b6b67e;
+}
+
+#profile-photo {
+    border-radius: 300px;
+    max-width: 300px;
+}
+
+#first-title {
+    padding: 50px 0 50ps 0;
+}
+/* PORTFOLIO STYLES */
+
+#portfolio {
+    padding: 15px;
+
+}
+
+.portfolio-photos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* EXPERIENCE STYLES */
+
+#professional-experience, #community {
+    background-color: #b6b6b67e;
+    padding: 15px;
+}
+
+#spirit-logo {
+    max-width: 300px;
+}
+
+/* STORY STYLES */
+
+#story {
+    padding: 15px;
+}
+
+.story-photos {
+    max-width: 300px;
+    border-radius: 30px;
+}
+
+/* TRAVEL STYLES */
+
+#travels {
+    height: 300px;
+}
+
+/* EDUCATION STYLES */
+
+#education {
+    padding: 15px;
+    background-color: #b6b6b67e;
+}
+
+.seals, #ballard-logo {
+    max-width: 200px;
+    margin: 0 0 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* SKILLS STYLES */
+
+#skills {
+    padding: 15px;
+}
+
+.progress {
+    padding: 0px;
+}
+
+.progress-bar {
+    background-color: rgb(81, 130, 173)
+}
+
+.badges {
+    max-width: 60px;
+    float: right;
+}
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+    .skill-row {
+        min-height: 60px;
+    }
+
+    .col-md-2 {
+        text-align: right;
+        text-align: middle;
+    }
+    
+}
+
+/* COMMUNITY STYLES  */
+
+#community {
+    padding: 15px;
+    background-color: white;
+}
+
+/* CONTACT STYLES */
+
+#contact {
+    color: white;
+    background-color: black;
+    padding: 15px;
+}
+
+#pizza {
+    text-align: center;
+    font-style: italic;
+    padding: 15px
+}
+
+.contact-images {
+    max-width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-align: center; */
+    /* float: center; */
+}
+
+ 
+#copyright {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+/* @media (min-width: 576px) { ... } */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
